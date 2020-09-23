@@ -1,0 +1,64 @@
+* {
+    box-sizing: border-box;
+}
+
+header {
+    height: 50px;
+    border-bottom: 2px #f0f0f0 solid;
+}
+
+.menu {
+    width: 200px;
+    height: 1000px;
+    background-color: #dfdfdf;
+    margin-top: 10px;
+}
+
+.content {
+    margin-left: 30px;
+}
+
+.middle {
+    display: flex;
+    background-color: #f8f8f8;
+}
+
+.ad {
+    margin: 20px 5px 0px 0px;
+    width: 700px;
+    height: 200px;
+    background-color: #d0a9f5;
+}
+
+.adplus {
+    margin-top: 20px;
+    width: 400px;
+    height: 200px;
+    background-color: #f5a9f2;
+}
+
+.cont1 {
+    display: flex;
+}
+
+.title1 {
+    margin: 10px 0px 10px 0px;
+    background-color: #A9E2F3;
+    height:60px;
+}
+
+.video1 {
+    height: 150px;
+    background-color: #2E64FE;
+}
+
+.title2 {
+    margin: 10px 0px 10px 0px;
+    background-color: #A9E2F3;
+    height:60px;
+}
+
+.video2 {
+    height: 150px;
+    background-color: #2E64FE;
+}
