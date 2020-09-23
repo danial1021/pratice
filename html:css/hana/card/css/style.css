@@ -1,29 +1,37 @@
+@charset "UTF-8";
+
+@import url(//fonts.googleapis.com/earlyaccess/notosanskr.css);
+/* font-family: "Noto Sans KR", sans-serif; 100,300,400,500,700,900 */
+
 /* layout */
-#wrap {width: 100%;}
+#wrap {width: 100%;  }
 #header {background-color: #fff;}
-#banner {width: 100%; height: 470px; background-color: #888;}
+#banner {width: 100%; height: 470px; background-color: #a0d1ee;}
 #contents {}
 #footer {}
 
 /* container */
-.container {width: 1200px; margin: 0 auto; /*background-color: rgba(0,0,0,0.4);*/}
+.container {width: 1200px; margin: 0 auto; position: relative; /* background-color: rgba(0,0,0,0.4); */}
 
 /* cont layout */
 #cont1 {width: 100%; height: 940px; background-color: #f5f6f8;}
 #cont2 {width: 100%; height: 555px; background-color: #efefef;}
 
 /* footer layout */
-#footer_notice {width: 100%; height: 71px; background-color: #fff;}
-#footer_info {width: 100%; height: 240px; background-color: #f7f8f9;}
+#footer_notice {width: 100%; height: 71px; line-height: 71px; background-color: #fff; border-bottom: 1px solid #e6e6e6;}
+#footer_info {width: 100%; height: 242px; background-color: #f7f8f9;}
 
 /* header */
-.header {overflow: hidden; font-family: "hanaB";}
-.header li a {display: block; padding: 11px 15px; font-size: 13px;}
-
+.header {overflow: hidden; font-family: 'HanaB';}
+.header li {background: url(../img/bar1.gif) no-repeat 0 14px;}
+.header li a {display: block; padding: 8px 15px; font-size: 13px; margin: 7px 0;}
 .header .list1 {float: left; overflow: hidden;}
-.header .list1 li {float: left;}
-.header .list1 li.green a {background-color: #00907f; color: #fff;} 
+.header .list1 li {float: left; }
+.header .list1 li.green a {background: #00907f; color:#fff; border-radius: 3px; }
 .header .list1 li a {color: #333;}
 .header .list2 {float: right; overflow: hidden;}
 .header .list2 li {float: left;}
+.header .list2 li:last-child a {padding-right: 0;}
+.header .list2 li.log {margin-right: 13px; background:none;}
+.header .list2 li.log a {border: 1px solid #ccc; border-radius: 3px; padding: 3px 10px; margin: 11px 0;}
 .header .list2 li a {color: #797979;}

@@ -1,0 +1,12 @@
+@font-face {
+  font-family: 'HanaB';
+  src: url('../font/HanaB.eot');
+  src: url('../font/HanaB.eot?#iefix') format('embedded-opentype'),
+  	   url('../font/HanaB.woff2') format('woff2'),
+       url('../font/HanaB.woff') format('woff'),
+       url('../font/HanaB.ttf') format('truetype'),
+       url('../font/HanaB.svg#HanaB') format('svg'); 
+  font-weight: normal;
+  font-style: normal;
+}
+
