@@ -44,7 +44,7 @@
 .ban_right .br_tit {background: #fff; height: 160px; padding: 45px 180px 60px 100px	}
 .ban_right .br_tit h3 {font-size: 36px; letter-spacing: -1px; line-height: 44px; font-weight: 700;}
 .ban_right .br_tit p {position: relative; padding-top: 50px; font-size: 14px;  }
-.ban_right .br_tit p:before {content: ''; width: 30px; height: 2px; background-color: #00907f; position: absolute; left: 0; top: 24px;}
+.ban_right .br_tit p::before {content: ''; width: 30px; height: 2px; background-color: #00907f; position: absolute; left: 0; top: 24px;}
 .ban_right .br_tit p strong {color: #00907f; }
 .ban_right .br_tit .login_btn {position: absolute; right: 60px; top: 55px;  }
 .ban_right .br_tit .login_btn li {margin-bottom: 1px;  }
@@ -57,6 +57,20 @@
 .ban_right .br_btn { background-color: #00907f; height: 50px; margin-top: 25px;}
 .ban_right .br_btn ul {overflow: hidden;  }
 .ban_right .br_btn li {position: relative; float: left; width: 25%; text-align: center; line-height: 50px; color: #fff; font-size: 14px; }
-.ban_right .br_btn li:before {content: ''; width: 1px; height: 14px; background-color: #62bdb1; position: absolute; left: 0; top: 19px;}
+.ban_right .br_btn li::before {content: ''; width: 1px; height: 14px; background-color: #62bdb1; position: absolute; left: 0; top: 19px;}
 .ban_right .br_btn li a {color:#fff; font-weight: 500; }
-.ban_right .br_btn li:first-child:before {width:0; height: 0;}
+.ban_right .br_btn li:first-child::before {width:0; height: 0;}
+
+/* nav */
+#nav {width: 100%; background-color: #fff; position: absolute; left: 0; top: -50px; font-family: 'HanaB'; padding: 30px 0px;}
+#nav .gnb {padding-left: 80px;}
+#nav .gnb li {display: inline; padding: 10px;}
+#nav .gnb li a {font-size: 17px; padding: 10px 20px; display: inline-block; transition: all 0.3s ease}
+#nav .gnb li a:hover {background-color: #00907f; color: #fff; border-radius: 3px;}
+#nav .gnb_right {position: absolute; right: 0; top: 0;}
+#nav .gnb_search {position: absolute; right: 0; top: 0;}
+/* card */
+#card {}
+
+/* evemt */
+#event {}
