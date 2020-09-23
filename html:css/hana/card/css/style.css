@@ -38,3 +38,25 @@
 .header .list2 li.log {margin-right: 13px; background:none;}
 .header .list2 li.log a {border: 1px solid #ccc; border-radius: 3px; padding: 3px 10px; margin: 11px 0;}
 .header .list2 li a {color: #797979;}
+
+/* ban_right */
+.ban_right {width: 600px; position: absolute; right: 0; top: 50px;  }
+.ban_right .br_tit {background: #fff; height: 160px; padding: 45px 180px 60px 100px	}
+.ban_right .br_tit h3 {font-size: 36px; letter-spacing: -1px; line-height: 44px; font-weight: 700;}
+.ban_right .br_tit p {position: relative; padding-top: 50px; font-size: 14px;  }
+.ban_right .br_tit p:before {content: ''; width: 30px; height: 2px; background-color: #00907f; position: absolute; left: 0; top: 24px;}
+.ban_right .br_tit p strong {color: #00907f; }
+.ban_right .br_tit .login_btn {position: absolute; right: 60px; top: 55px;  }
+.ban_right .br_tit .login_btn li {margin-bottom: 1px;  }
+.ban_right .br_tit .login_btn li a {width: 80px; height: 80px; display: block; text-align: center; color:#fff; font-size: 14px; }
+.ban_right .br_tit .login_btn li.lb1 a {background: #db3360 url(../img/ico_login.png) no-repeat center 17px; padding-top: 50px; height: 30px; transition: background 0.3s ease;}
+/* .ban_right .br_tit .login_btn li.lb1 a {background: #db3360 url(../img/ico_login.png) no-repeat center 17px; padding-top: 50px; box-sizing: border-box; transition: background 0.3s ease;} */
+.ban_right .br_tit .login_btn li.lb1 a:hover {background-color: #c4204c;}
+.ban_right .br_tit .login_btn li.lb2 a {background-color: #3c3f44; line-height: 80px; transition: background 0.3s ease;}
+.ban_right .br_tit .login_btn li.lb2 a:hover {background-color: #333;}
+.ban_right .br_btn { background-color: #00907f; height: 50px; margin-top: 25px;}
+.ban_right .br_btn ul {overflow: hidden;  }
+.ban_right .br_btn li {position: relative; float: left; width: 25%; text-align: center; line-height: 50px; color: #fff; font-size: 14px; }
+.ban_right .br_btn li:before {content: ''; width: 1px; height: 14px; background-color: #62bdb1; position: absolute; left: 0; top: 19px;}
+.ban_right .br_btn li a {color:#fff; font-weight: 500; }
+.ban_right .br_btn li:first-child:before {width:0; height: 0;}
