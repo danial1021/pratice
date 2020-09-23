@@ -1,0 +1,18 @@
+#footer {
+    width: 200px;
+    background-color: #395ca9; 
+    color: #fff;
+    padding: 10px;
+}
+
+#contents {
+    width: 200px; 
+    background-color: #e6e8eb; 
+    padding: 10px;
+}
+
+.box {
+    background-color:#fff;
+    padding: 5px; 
+    margin: 10px;
+}

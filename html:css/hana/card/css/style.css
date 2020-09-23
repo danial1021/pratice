@@ -28,6 +28,9 @@
 .header .list1 {float: left; overflow: hidden;}
 .header .list1 li {float: left; }
 .header .list1 li.green a {background: #00907f; color:#fff; border-radius: 3px; }
+/* 
+.ie8 header .list1 li.green a {background: #00907f; color:#fff; border-radius: 3px; }
+*/
 .header .list1 li a {color: #333;}
 .header .list2 {float: right; overflow: hidden;}
 .header .list2 li {float: left;}
