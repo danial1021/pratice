@@ -82,7 +82,28 @@
 
 
 /* card */
-#card {}
+#card {overflow: hidden; padding-top: 60px;}
+#card .card_img {float: left; width: 50%; height: 285px; background-color: #fff;}
+#card .card_desc {float: left; width: 50%; height: 285px; background-color: #eaebef;}
 
-/* evemt */
+/* card_img */
+.card_img {padding: 18px 47px 0; box-sizing: border-box;}
+.card_img h4 {font-size: 18px; color: #000; font-weight: 500; padding-bottom: 11px;}
+.card_img .card_banner {margin-bottom: 30px;}
+.card_img .card_banner ul {overflow: hidden;}
+.card_img .card_banner li {float: left; width: 146px; margin-left: 30px; text-align: center;} 
+.card_img .card_banner li a em {font-size: 14px; padding-top: 8px; display: block;}
+.card_img .card_banner li:first-child {margin-left: 0;}
+.card_img .card_banner li img {width: 100%;}
+.card_img .card_link ul {overflow: hidden;}
+.card_img .card_link li {float: left; margin-left: 11px;}
+.card_img .card_link li:first-child {margin-left: 0;}
+.card_img .card_link li a {border: 1px solid #e8e8e8; padding: 10px 11px; box-sizing: border-box; display: block; font-size: 15px; text-align: center;border-radius: 3px; transition: all 0.3s ease;}
+.card_img .card_link li a:hover {border-color: #666; color: #000;}
+.ie8 .card_img .card_link li a {padding: 10px 7px;}
+
+/* card_desc */
+.card_desc {}
+
+/* event */
 #event {}
