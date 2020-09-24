@@ -157,3 +157,21 @@
 .event_box3 .eb_slider2 p {color: #fff; font-size: 16px; padding: 35px 30px 15px 30px;}
 .event_box3 .eb_slider2 a {background: #fff; padding: 10px 50px; display: inline-block; border-radius: 3px; font-size: 16px;}
 
+/* life */
+#life {overflow: hidden; height: 330px; background: url(../img/mc_service_bg02.png) no-repeat; }
+#life h3 {width: 50%; float: left; height: 215px; padding: 60px 30px 30px 30px; box-sizing: border-box; font-size: 50px; color:#333; text-transform: uppercase; letter-spacing: 15px; font-weight: 500;}
+#life h3 em {font-size: 18px; color:#000; display: block; letter-spacing: 1px; }
+#life .life_menu {width: 50%; float: left; margin-top: 60px;}
+#life .life_menu li {float: left; width: 25%;}
+#life .life_menu li a {display: block; width: 100px; height: 100px; border-radius: 50%; background: #ddd; text-align: center; line-height: 100px; font-size: 16px; color: #000;}
+#life .life_menu li a:hover {background: #cc3b63; color:#fff;}
+#life .life_btn {width: 100%; float: left; background: #fff; text-align: center; margin-top: 20px;}
+#life .life_btn ul {overflow: hidden;}
+#life .life_btn li {position: relative; float: left; width: 16.6666%;}
+#life .life_btn li a {display: block; padding: 13px 10px; font-size: 16px; color:#333;}
+#life .life_btn li:after {content: ''; width: 1px; height: 14px;
+    background-color: #ccc; position: absolute; left: 0; top: 19px;}
+#life .life_btn li:first-child:after {width:0; height: 0;}
+
+/* app */
+#app {background-color: #fff;}
