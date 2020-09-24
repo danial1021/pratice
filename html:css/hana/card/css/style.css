@@ -174,4 +174,17 @@
 #life .life_btn li:first-child:after {width:0; height: 0;}
 
 /* app */
-#app {background-color: #fff;}
+#app {overflow: hidden; background: #fff; width: 100%;}
+#app .app_left {float: left; width: 49%; margin-right: 1%; height: 200px; background: url(../img/mc_service_banner01_img.jpg) no-repeat 50px 43px; }
+#app .app_left .al_btn {overflow: hidden; padding:45px 10px 10px 290px; }
+#app .app_left .al_btn li {float: left; margin-right: 20px; border: 1px solid #eaeaea; border-radius: 10px; width: 48px; height: 48px;}
+#app .app_left .al_btn li img {border-radius: 10px;}
+#app .app_left .al_txt {padding: 0 0 0 290px; font-size: 16px; color: #666;  }
+#app .app_left .al_txt strong {font-size: 20px; line-height: 34px; color: #000; display: block;}
+#app .app_right {overflow: hidden; float: left; width: 50%; height: 200px; background-color: #ddd;  }
+#app .app_right .ap_ban1 {float: left; width: 25%; height: 70px; background: #2f4359 url(../img/service_ban01.png) no-repeat center 50px; text-align: center; font-size: 16px; color:#fff; padding-top: 130px;}
+#app .app_right .ap_ban2 {float: left; width: 25%; height: 70px; background: #00907f url(../img/service_ban02.png) no-repeat center 50px; text-align: center; font-size: 16px; color:#fff; padding-top: 130px;}
+#app .app_right .ap_ban3 {float: left; width: 50%; height: 200px; background-color: #fff; padding: 20px; box-sizing: border-box;}
+#app .app_right .ap_ban3 .ban3_text {padding: 20px 20px 30px 75px; font-size: 15px; color:#666; border-bottom: 1px solid #ddd; background: url(../img/service_ban03.png) no-repeat 10px 40px;}
+#app .app_right .ap_ban3 .ban3_text h5 {font-size: 20px; color:#000; padding-bottom: 5px;}
+#app .app_right .ap_ban3 .ban3_slider {text-align: center; font-size: 16px; padding: 10px 0 0 0;}
