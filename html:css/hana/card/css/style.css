@@ -103,7 +103,57 @@
 .ie8 .card_img .card_link li a {padding: 10px 7px;}
 
 /* card_desc */
-.card_desc {}
+.card_desc {padding: 50px 30px 0; box-sizing: border-box; text-align: center;}
+.card_desc dl dt {font-size: 15px; color: #777; font-weight: 500;}
+.card_desc dd.cd1 {margin: 26px 0 45px 0; font-size: 23px; color: #000;}
+.card_desc dd.cd1::before {content: '"'; color: #00907f;}
+.card_desc dd.cd1::after {content: '"'; color: #00907f;}
+.card_desc dd.cd2 li {display: inline; margin: 0 1px;}
+.card_desc dd.cd2 li a {background-color: #fff; padding: 8px 30px; display: inline-block; border: 1px solid #fff; border-radius: 3px; font-size: 15px; transition: all 0.3s ease;}
+.card_desc dd.cd2 li a:hover {border-color: #bbb; color: #000;}
 
 /* event */
-#event {}
+#event {overflow: hidden; margin-top: 10px;}
+#event .event_box1 {float: left;}
+#event .event_box2 {float: left;}
+#event .event_box3 {float: left;}
+
+/* event_box */
+.event_box1 {text-align: center; color: #fff;}
+.event_box1 .eb_desc {font-size: 16px; font-weight: 300; }
+.event_box1 .eb_tit {font-size: 20px; }
+.event_box1 div {padding-top: 110px; box-sizing: border-box;}
+.event_box1 .eb_banner1 {width: 300px; height: 188px; background: #01937f url(../img/event_icon1.png) no-repeat center 25px; }
+.event_box1 .eb_banner2 {width: 300px; height: 188px; background: #766e9c url(../img/event_icon2.png) no-repeat center 25px;}
+.event_box1 .eb_banner3 {width: 300px; height: 188px; background: #43587d url(../img/event_icon3.png) no-repeat center 25px;}
+
+.event_box2 .eb_banner4 {position: relative; width: 600px; height: 376px; background: #fff;}
+.event_box2 .eb_banner4 .eb_icon {position: absolute; left: 60px; top: 70px;}
+.event_box2 .eb_banner4 .eb_icon ul {overflow: hidden;}
+.event_box2 .eb_banner4 .eb_icon li {float: left;}
+.event_box2 .eb_banner4 .eb_icon li a {font-size: 13px; padding: 3px 12px; display: block; }
+.event_box2 .eb_banner4 .eb_icon li.ei1 a {border: 1px solid #00907f; background-color:#00907f; color:#fff; border-radius: 3px; margin-right: 8px; text-transform: uppercase;}
+.event_box2 .eb_banner4 .eb_icon li.ei1 a i {padding-left: 10px;}
+.event_box2 .eb_banner4 .eb_icon li.ei2 a {border: 1px solid #ccc; border-radius: 3px; transition: all 0.3s ease; }
+.event_box2 .eb_banner4 .eb_icon li.ei2 a:hover {border-color: #000; color:#000;}
+.event_box2 .eb_banner4 .eb_slider1 {padding: 140px 80px 80px 60px; background: url(../img/eb_icon1.png) no-repeat 300px center;}
+.event_box2 .eb_banner4 .eb_slider1 p {font-size: 16px;}
+.event_box2 .eb_banner4 .eb_slider1 h4 {position: relative; font-size: 24px; padding: 30px 0 45px;}
+.event_box2 .eb_banner4 .eb_slider1 h4::before {content: ''; width: 30px; height: 2px; background: #000; position: absolute; left: 0; top: 15px;}
+.event_box2 .eb_banner4 .eb_slider1 span {color: #676767; font-size: 13px}
+
+.event_box2 .eb_banner5 {position: relative; width: 600px; height: 188px; background: #8cc7e9 url(../img/event_icon4.png) no-repeat 150px 70px;}
+.event_box2 .eb_banner5 h4 {position: absolute; left: 60px; top:95px; font-size: 20px; font-family: 'HanaB' }
+.event_box2 .eb_banner5 .money {overflow: hidden; margin: 0 50px 0 260px; padding-top: 55px; }
+.event_box2 .eb_banner5 .money li {float: left; margin-right: 8px; margin-bottom: 8px; }
+.event_box2 .eb_banner5 .money li a {display: block; background: #fff; padding: 9px 10px; border-radius: 3px; font-size: 14px; width: 134px; text-align: center; transition: all 0.3s ease;}
+.event_box2 .eb_banner5 .point {position: absolute; left: 60px; top: 55px; background-color:#43587d; color:#fff; border-radius: 3px; text-transform: uppercase; font-size: 13px; padding: 3px 12px; display: block;}
+/*.event_box2 .eb_banner5 .money li:nth-child(2n-1) a {width: 100px;}*/
+.event_box2 .eb_banner5 .money li.w100 a {width: 100px;}
+.event_box2 .eb_banner5 .money li a:hover {background-color: #f4f4f4;}
+
+.event_box3 {width: 300px; height: 564px; background: #d7567e; text-align: center;}
+.event_box3 h4 {font-size: 22px; color: #fff; padding: 40px 0; }
+.event_box3 .eb_slider2 p {color: #fff; font-size: 16px; padding: 35px 30px 15px 30px;}
+.event_box3 .eb_slider2 a {background: #fff; padding: 10px 50px; display: inline-block; border-radius: 3px; font-size: 16px;}
+
