@@ -80,7 +80,6 @@
 #nav .gnb_event {position: absolute; left: 20px; top: -35px; line-height: 30px; background-color: #3c3f44; color: #fff; text-transform: uppercase; font-size: 14px; padding: 3px 23px 2px 23px;}
 #nav .gnb_event i {padding-left: 10px;}
 
-
 /* card */
 #card {overflow: hidden; padding-top: 60px;}
 #card .card_img {float: left; width: 50%; height: 285px; background-color: #fff;}
@@ -199,3 +198,26 @@
 .notice li a::before {content: ''; width: 3px; height: 3px; background: #666; position: absolute; left: 0; top: 8px;}
 .notice .notice_btn {position: absolute; right: 0; top: 17px; border: 1px solid #e6e6e6; border-radius: 3px; font-size: 14px; line-height: 20px; display: block; padding: 7px 20px; transition: all 0.3s ease; }
 .notice .notice_btn:hover {border-color: #000;}
+
+/* info */
+.info a {color:#666;}
+.info a:hover {color:#00907f;}
+.info .f_nav li {display: inline-block; padding: 20px 0;}
+.info .f_nav li a {padding: 10px; display: inline-block; font-size: 16px; }
+.info .f_nav li:first-child a {padding-left: 0px;}
+.info .f_nav li a strong {color:#000; font-weight: bold;}
+.info .f_nav li a:hover strong {color:#00907f;}
+.info .f_address {font-size: 13px; line-height: 24px; color:#666; margin-bottom: 20px;}
+.info .f_address span {margin-right: 15px;}
+.info .f_icon ul {overflow: hidden;}
+.info .f_icon li {float: left; background: #ccc; margin-right: 15px; padding: 5px 15px 5px 50px ;}
+.info .f_icon li.fi1 {background: url(../img/mark01.png) no-repeat 0 5px; padding-left: 45px;}
+.info .f_icon li.fi2 {background: url(../img/mark02.png) no-repeat 0 5px}
+.info .f_icon li.fi3 {background: url(../img/mark03.png) no-repeat 0 5px}
+.info .f_icon li.fi4 {background: url(../img/mark04.png) no-repeat 0 5px; padding-left: 60px;}
+.info .f_icon li.fi5 {background: url(../img/mark05.png) no-repeat 0 5px}
+.info .family_site {position: absolute; right: 0; top: 20px; border:1px solid #e6e6e6; background: #fafafa; color:#222; border-radius: 3px; font-size: 14px; padding: 7px 20px;    }
+.info .family_site i {padding-left: 20px;}
+.info .sns_icon {position: absolute; right: 0; top: 70px;}
+.info .sns_icon li {display: inline;}
+ 
