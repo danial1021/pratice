@@ -1,6 +1,6 @@
 function solution(s, n) {
   return s.split('').map(e => {
-    if (e == ' ') return e; // 공백은 그대로
+    if(e == ' ') return e; // 공백은 그대로
     
     let ascii = e.charCodeAt(); // 아스키코드 번호로 변환
     let upper = (ascii <= 90); // 대문자 65 ~ 90
