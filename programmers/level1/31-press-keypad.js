@@ -23,8 +23,8 @@ function solution(numbers, hand) {
       7: [2, 0], 8: [2, 1], 9: [2, 2],
       '*': [3, 0], 0: [3, 1], '#': [3, 2]
   };
-  var lH = '*', rH = '#'; // 왼손, 오른손 위치 초기화
-  var result = ''
+  let lH = '*', rH = '#'; // 왼손, 오른손 위치 초기화
+  let result = '';
 
   for (let num of numbers) { // numbers의 길이만큼 반복
       if (num % 3 === 1){ // 1, 4, 7 일 경우 L을 더해주고 위치 갱신
@@ -36,7 +36,7 @@ function solution(numbers, hand) {
           rH = num;
       }
       else{ // dis 함수를 이용하여 위치를 구함
-          result += dis(num, lH, rH, pos, hand)
+          result += dis(num, lH, rH, pos, hand);
           result[result.length-1] === 'L'? lH = num : rH = num
       }
   }
